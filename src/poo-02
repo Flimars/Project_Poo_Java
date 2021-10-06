@@ -4,13 +4,12 @@ final int capacidadeAgua;
 final int capacidadeCopos200;
 final int capacidadeCopos300;
 int qtdAgua;
-int copos200;
 int qtdCopos200;
 int qtdCopos300;
 
 // construtor com parâmetros definidos e obrigatórios.
 MaquinaAguaConfiguravel(int agua, int copos200, int copos300){
-  if (agua <= 0 && copos200 <= 0 && copos300 <= 0) {
+  if (agua <= 0 || copos200 <= 0 || copos300 <= 0) {
     throw new IllegalArgumentException("Falta de Argumentos ou Argumentos Inválidos");
   }
   // atributos de capacidade - ml.
