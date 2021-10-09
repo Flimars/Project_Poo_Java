@@ -1,9 +1,9 @@
 public class NomeCompleto {
     public static String todonome (String nome, String sobrenome) {
 
-        String nome = "";
-        String sobrenome = "";
-        String resultado = nome + sobrenome;
+        String primeiroNome = "";
+        String sobreNome = "";
+        String resultado = primeiroNome + sobreNome;
 
         return resultado; 
         

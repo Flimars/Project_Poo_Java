@@ -1,9 +1,10 @@
+package src;
 
 public class App {
 
 	public static void main(String[] args) {
 		Veiculo car = new Veiculo();
-		car.tipo = "automóvel";
+		car.tipo = "automÃ³vel";
 		car.marca = "Volkswagem";
 		car.modelo = "Gol";
 		car.numPassageiros = 5;
@@ -16,7 +17,7 @@ public class App {
 		System.out.println(car.possuiMotor);
 		car.exibirAutonomia();
 		double autonomia = car.obterAutonomia();
-		System.out.println("A  autonomia do carro é de: "+ autonomia);
+		System.out.println("A  autonomia do carro Ã© de: "+ autonomia);
 	}
 
 }

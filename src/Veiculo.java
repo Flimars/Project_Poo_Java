@@ -1,3 +1,4 @@
+package src;
 
 class Veiculo {
 	String tipo;
@@ -8,11 +9,11 @@ class Veiculo {
 	double capCombustivel;
 	double consumoCombustivel;
 	boolean possuiMotor;
-	//método void sem retorno.
+	//mï¿½todo void sem retorno.
 	void exibirAutonomia() {
-		System.out.println("A  autonomia do carro é de: "+ capCombustivel * consumoCombustivel +" KM/L");		
+		System.out.println("A  autonomia do carro Ã© de: "+ capCombustivel * consumoCombustivel +" KM/L");		
 	}
-	//método tipado com retorno.
+	//mï¿½todo tipado com retorno.
 	double obterAutonomia() {
 		return capCombustivel * consumoCombustivel;
 	}
