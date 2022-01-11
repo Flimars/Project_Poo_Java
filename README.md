@@ -6,8 +6,10 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 
 The workspace contains two folders by default, where:
 
+- `ava`: the folder with number the of activity
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
+- `read-me`: from each ava, contains what should be done in each activity.
 
 ## Dependency Management
 
